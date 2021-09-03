@@ -6,22 +6,22 @@ for(var i = 0; i < numbers.length; i++) {
 	}
 }
 
-var let = [];
+var lett = [];
 var str = "Backend As A Service";
-var first_let = "";
+var first_lett = "";
 
 str = str.split(' ');
 
 for(var i = 0; i < str.length; i++) {
-	letters.push(str[i][0]);
+	lett.push(str[i][0]);
 }
-console.log(letters);
+console.log(lett);
 
-for(i = 0; i <let.length; i++) {
-	first_let += let[i];
+for(i = 0; i <lett.length; i++) {
+	first_lett += lett[i];
 }
 
-console.log(first_let);
+console.log(first_lett);
 
 function Data(number) {
 	if(typeof(number) === "number")
