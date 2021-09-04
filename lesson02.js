@@ -25,7 +25,7 @@ for (let i = 0; i < nums.length; i++) {
 	}
 }
 console.log(counter)
-console.log("Because " + nums[counter[0]] + " + " + nums[counter[1]] +" == " + target + ", we return [" + counter + "].")
+console.log("Because " + nums[counter[0]] + " + " + nums[counter[1]] +" == " + target + ", we return [" + counter + "]")
 //////////////////////////////////////////////////////////////////////////
 
 
